@@ -200,7 +200,7 @@ nav{
 
     text-align: center;
     
-    background-image: url(/marketing\ site/assets/enjoy.jpg);
+    background-image: url(/assets/enjoy.jpg);
     background-size: cover;
     grid-column: 1/3;
     padding: 3rem 10rem;
@@ -245,7 +245,7 @@ p{line-height: 1.25;}
 
 
 .aboutHeadBanner{
-    background-image: url(/marketing\ site/assets/meetTeam.jpg);
+    background-image: url(/assets/meetTeam.jpg);
     background-size:cover;
     height: 30rem;
 }
