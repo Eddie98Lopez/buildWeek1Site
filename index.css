@@ -1,0 +1,487 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* CSS reset Above..... Time to do what i do below...wish me luck...lol....help :`( */ 
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+   
+
+}
+
+nav{
+    background-color:rgba(0, 0, 0, 0.205);
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    border-bottom:solid rgba(255, 255, 255) 4px;
+}
+
+.iconContainer{
+    margin-left: 5%;
+    height: inherit;
+    position: relative;
+    top: 5px;
+
+}
+
+.iconContainer img {
+    object-fit: contain;
+    height: 70px;
+    justify-self: self-end;
+}
+
+.navItemContainer{ 
+    font-weight: 600;
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+.iconContainer{
+    float: left;
+}
+
+.navItemContainer a {
+   
+    text-decoration: none;
+    color:white;
+    padding: 2rem;
+
+}
+
+.navItemContainer a:hover  {
+
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: ease-in;
+    transition-duration: .3s;
+}
+
+#button{
+    background-color: rgba(32, 178, 171, 0.8);
+    font-weight: 600;
+}
+
+#button:hover{
+    transition: ease-out;
+    transition-duration: .15s;
+    background-color: violet;
+    
+
+}
+
+.main{
+
+    width: 100%;
+    height: 40rem;
+
+}
+
+.main img{
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+    width: 100%;
+    height: inherit;
+
+}
+.main div{
+    position: relative;
+    top: 40%;
+    left: 10%;
+    color: white;
+    object-fit: contain;
+}
+
+
+
+.main h1{
+    font-weight: 600;
+    color: white;
+    font-size: 5rem;
+}
+
+.main h2{
+    font-weight: 500;
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+
+.content{
+    
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+
+}
+
+.content div h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+
+.div1-2{
+
+
+    width: auto;
+    background-color: rgb(224, 224, 224);
+    margin: 1rem;
+    padding: 2rem;
+    
+   
+}
+.div1-2 p {
+    margin-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right:3rem;
+    text-align: center;
+    
+}
+
+
+
+#enjoy{
+
+    text-align: center;
+    
+    background-image: url(/marketing\ site/assets/enjoy.jpg);
+    background-size: cover;
+    grid-column: 1/3;
+    padding: 3rem 10rem;
+    background-color: rgb(224, 224, 224);
+
+    color: white;
+    
+}
+
+#enjoy img {
+    margin-top:2rem;
+    width: 50%;
+    height: auto;
+}
+
+#enjoy h2{
+    font-weight: 600;
+    font-size: 2.75rem;
+    
+}
+
+footer{
+    background: rgb(41, 41, 41);
+    padding: 4rem;
+    text-align: center;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    padding: 0px 3rem 0px 3rem;
+
+}
+
+p{line-height: 1.25;}
+
+
+
+
+/*----------About Us Page---------*/
+
+
+.aboutHeadBanner{
+    background-image: url(/marketing\ site/assets/meetTeam.jpg);
+    background-size:cover;
+    height: 30rem;
+}
+
+.aboutHeadBanner div{
+    position: relative;
+    top: 35%;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.aboutHeadBanner div h1{
+    font-size: 5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.aboutHeadBanner div p{
+    font-size:2rem;
+}
+
+.gridcontainer{
+
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr /*1fr*/ ;
+
+}
+
+.person{
+   
+    background-color: whitesmoke;
+    margin: 1rem;
+    text-align: center;
+    padding: 2rem;
+    position: relative;
+
+}
+
+.imgContainer{
+    width: 80%;
+    padding-top: 100%;
+
+}
+
+.person img{
+    margin-bottom: 2rem;
+    width: 100%;
+    height: auto;
+}
+
+
+
+.bio{
+    width: 1fr;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.bio h3{
+    font-size: larger;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.bio p {
+   
+}
+
+.socialMediaContainer{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-bottom: 1rem;
+
+}
+
+.socialMedia{ 
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: teal;
+}
+
+
+
+
+
+/*------------Media queries stuff below-----------*/
+
+@media (max-width: 768px){
+
+    .main{
+        height: 30rem;
+    }  
+
+    .main h1{
+        font-size: 4.5rem;
+    }
+    
+    .main h2{
+        font-size: 1.5rem;
+    }
+
+    
+    .gridcontainer{
+
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr ;
+
+    }
+    .aboutHeadBanner{
+        height: 25rem;
+    }
+
+    .aboutHeadBanner div h1 {font-size: 3.5rem ;}
+    .aboutHeadBanner div p {font-size: 1.5rem;}
+
+    .div1-2 p {
+        margin-bottom: 2rem;
+        padding-left: 1.5rem;
+        padding-right:1.5rem;
+        
+    }
+
+
+}
+
+
+
+@media (max-width: 620px){
+
+    footer{
+        padding: 2rem;
+    }
+    footer a {
+        display: block;
+        padding: 5px;
+
+    }
+
+    .content{
+    
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    #enjoy{
+        padding: 3rem 3rem;
+    }
+
+    .div1-2{
+        text-align: center;
+    }
+
+    .aboutHeadBanner{
+        height: 20rem;
+    }
+    .aboutHeadBanner div{
+        top: 40%;
+    }
+
+    .aboutHeadBanner div h1{
+        font-size: 3rem;
+    }
+
+    .aboutHeadBanner div p {
+        font-size: 1.25rem;
+    }
+
+    #enjoy img{
+        width: 60%;
+    }
+
+}
+
+
+@media(max-width:560px){
+
+    .gridcontainer{
+
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr 1fr ;
+
+    }
+
+    .person img{
+        width: 60%;
+    }
+
+}
+
+@media (max-width:475px){
+
+    
+
+    .main{
+
+        height:25rem;
+        width: 100%;
+    }
+
+    .main div{
+        text-align: center;
+        left: 0;
+    }
+
+    .main h1{
+        font-size: 4rem;
+    }
+
+
+
+}
+
+
+@media (max-width:375px){
+
+    .main h1{
+        font-size: 3.25rem;
+    }
+
+    .aboutHeadBanner{height: 22rem;}
+    .aboutHeadBanner div {top:32%}
+    .person img{
+        width: 100%;
+    }
+}
+
+
+
