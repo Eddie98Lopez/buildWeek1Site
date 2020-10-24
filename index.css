@@ -432,6 +432,57 @@ p{line-height: 1.25;}
 
 @media(max-width:560px){
 
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    nav{
+        background-color:rgba(0, 0, 0, 0.205);
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        border-bottom:solid rgba(255, 255, 255) 2px;
+    }
+    
+    .iconContainer{
+        margin-left: 0%;
+        top:2px;
+        text-align: center;
+        width: 100%;
+    
+    }
+    #button{background-color: rgba(224, 224, 224, 0);}
+    
+    .iconContainer img {
+        
+        height: 50px;
+        
+    }
+    
+    .navItemContainer{ 
+        font-weight: 600;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        
+    }
+    
+    .iconContainer{
+        float: none;
+    }
+    
+    .navItemContainer a {
+       
+        text-decoration: none;
+        color:white;
+        padding: 1rem;
+
+    }
+    
+
     .gridcontainer{
 
         display: grid;
